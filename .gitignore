@@ -40,3 +40,6 @@ sysinfo.txt
 
 # Collaborate
 .collabignore
+
+_External/
+
