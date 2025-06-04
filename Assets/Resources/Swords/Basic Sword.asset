@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec25ef4a32dc6a44ea50b9a9343f4103, type: 3}
+  m_Name: Basic Sword
+  m_EditorClassIdentifier: 
+  id: 37082347-8444-4ac0-92e0-35c332da206d
+  name: Basic Sword
+  description: A simple but usefull weapon
+  icon: {fileID: 21300000, guid: e4f4ca91247a98b4a85461b1ec9807c2, type: 3}
+  category: {fileID: 11400000, guid: b0af0aed6b18a274398b20a7d9de20e0, type: 2}
+  overrideCategorySettings: 0
+  overrideCategoryAttributes: 0
+  equipmentSlotIndex: 0
+  attachModel: 1
+  modelPrefab: {fileID: 1753325093932854839, guid: a3884a940f9a8d3418a27008b045837c, type: 3}
+  isSkinnedMesh: 1
+  localPosition: {x: 0.016, y: 0.004, z: 0.311}
+  localRotation: {x: 90, y: 0, z: 0}
+  sellable: 1
+  droppable: 1
+  weight: 2
+  canCraft: 1
+  priceToCraft:
+    amount: 0
+    currencyIndex: 0
+  canDismantle: 1
+  priceToDismantle:
+    amount: 2
+    currencyIndex: 0
+  ingredients:
+  - item: {fileID: 11400000, guid: c15ad6a5237dcea48961ac5ca832cc27, type: 2}
+    count: 3
+    serialized: 1
+  overrideDismantleItems: 0
+  dismantleToItems: []
+  price:
+    amount: 15
+    currencyIndex: 0
+  requiresMultipleCurrencies: 0
+  currenciesRequired: []
+  overrideAction: 0
+  itemAction: {fileID: 0}
+  attributeValues: []
+  overrideAttributes:
+  - attributeType: 0
+    attributeName: New Attribute
+    stringValue: 
+    intValue: 0
+    floatValue: 0
+  pickupPrefab: {fileID: 1753325093932854839, guid: a3884a940f9a8d3418a27008b045837c, type: 3}
